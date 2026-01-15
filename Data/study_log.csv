@@ -1,5 +1,11 @@
 date,subject,hours,note
-2026-01-01,Discrete Math,2.0,Sets and relations
-2026-01-01,Advanced Programming,1.5,Pointers and arrays
-2026-01-02,English,1.0,Reading practice
-2026-01-02,Discrete Math,2.5,Functions
+2026-01-01,Discrete Mathematics,2,Sets and relations
+2026-01-01,Advanced Programming,1,Functions review
+2026-01-02,English,1.5,Reading practice
+2026-01-02,Discrete Mathematics,2,Logic exercises
+2026-01-03,Advanced Programming,2,OOP basics
+2026-01-03,English,1,Vocabulary
+2026-01-04,Discrete Mathematics,3,Graph theory
+2026-01-04,Advanced Programming,1,Debugging
+2026-01-05,English,2,Listening
+2026-01-05,Discrete Mathematics,2,Practice problems
