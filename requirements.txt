@@ -1,3 +1,2 @@
-pandas>=1.5
-matplotlib>=3.6
-jupyter
+# Developed and tested with Python 3.13 (local environment)
+# Compatibility target: Python >=3.10

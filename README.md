@@ -1,8 +1,9 @@
 # Study Log Analysis
 
 This project is a small personal data analysis project based on my daily study records during exam preparation.
+It focuses on descriptive analysis and consistency metrics rather than predictive modeling.
 
-It serves as a lightweight, reproducible example of basic data collection, aggregation, and visualization using Python.
+The project serves as a lightweight and reproducible example of basic data collection, aggregation, and visualization using Python.
 
 ## Motivation
 
@@ -18,10 +19,10 @@ The dataset is manually collected and stored in `Data/study_log.csv`.
 
 Each record contains:
 
-- `date`: study date  
-- `subject`: subject studied  
-- `hours`: time spent (in hours)  
-- `note`: short personal notes  
+- `date`: study date
+- `subject`: subject studied
+- `hours`: time spent (in hours)
+- `note`: short personal notes
 
 Because the data is self-recorded, the dataset is small and personal.
 No external preprocessing or augmentation was applied.
@@ -30,9 +31,9 @@ No external preprocessing or augmentation was applied.
 
 The analysis is implemented in a Jupyter notebook and focuses on:
 
-- Loading and inspecting the dataset using pandas  
-- Aggregating study time by subject and by date  
-- Visualizing study time distribution and trends using matplotlib  
+- Loading and inspecting the dataset using pandas
+- Aggregating study time by subject and by date
+- Visualizing study time distribution and trends using matplotlib
 
 The emphasis is on clarity, reproducibility, and interpretability rather than complex modeling.
 
@@ -44,11 +45,12 @@ These results help make abstract study habits visible and measurable.
 
 ## How to run
 
-1. Install dependencies  
+1. Install dependencies
+
    pip install -r requirements.txt
 
-2. Open the notebook  
+2. Open the notebook
+
    jupyter notebook notebooks/study_analysis.ipynb
 
 3. Run all cells to reproduce the analysis and figures.
-Open notebooks/study_analysis.ipynb and run all cells.
