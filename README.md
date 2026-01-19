@@ -43,14 +43,25 @@ The analysis reveals clear differences in time allocation across subjects and hi
 
 These results help make abstract study habits visible and measurable.
 
+### Subject breakdown
+
+![](figures/subject_breakdown.png)
+
+### Daily trend
+
+![](figures/daily_trend.png)
+
 ## How to run
 
-1. Install dependencies
+### Quickstart (CLI)
 
-   pip install -r requirements.txt
+    pip install -r requirements.txt
+    python -m src.main
 
-2. Open the notebook
+Outputs will be saved to `figures/`.
 
-   jupyter notebook notebooks/study_analysis.ipynb
+### Notebook (optional)
 
-3. Run all cells to reproduce the analysis and figures.
+    jupyter notebook Notebooks/study_analysis.ipynb
+
+Recommended: use a virtual environment (venv) to avoid dependency conflicts.
